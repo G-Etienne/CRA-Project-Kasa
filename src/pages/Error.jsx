@@ -10,7 +10,7 @@ function Error() {
             <p className="error__text">
                 Oups! La page que vous demandez n'existe pas.
             </p>
-            <NavLink className="error__link" to="/">
+            <NavLink className="error__link" to="/CRA-Project-Kasa">
                 Retourner sur la page d'accueil
             </NavLink>
         </div>

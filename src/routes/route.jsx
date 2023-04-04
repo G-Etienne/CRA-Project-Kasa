@@ -16,7 +16,7 @@ function Roads() {
             <div className="main-wrapper">
                 <Header />
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/CRA-Project-Kasa"  element={<Home />} />
                     <Route path="/dwelling/:id" element={<DwellingInfo />} />
                     <Route path="/about" element={<About />} />
                     <Route path="*" element={<Error />} />

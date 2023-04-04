@@ -13,7 +13,7 @@ const Header = () => {
                 alt="image logo de kasa"
             />
             <nav>
-                <NavLink className="header__link" to="/">
+                <NavLink className="header__link" to="/CRA-Project-Kasa">
                     Accueil
                 </NavLink>
                 <NavLink className="header__link" to="/about">
