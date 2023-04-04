@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/CRA-Project-Kasa/static/css/main.4af8e019.css",
-    "main.js": "/CRA-Project-Kasa/static/js/main.e4af6444.js",
-    "static/media/image-a-propo.png": "/CRA-Project-Kasa/static/media/image-a-propo.31a72a1fd05dc889f909.png",
-    "static/media/image-home.png": "/CRA-Project-Kasa/static/media/image-home.7f6b1f9fd4057cf1b508.png",
-    "static/media/Kasa.png": "/CRA-Project-Kasa/static/media/Kasa.ae39c8901ca530b39482.png",
-    "static/media/croix.png": "/CRA-Project-Kasa/static/media/croix.d225ea0c3a0d52e1ce5f.png",
-    "static/media/Kasa-footer.png": "/CRA-Project-Kasa/static/media/Kasa-footer.3639a583a6249ad6adda.png",
-    "index.html": "/CRA-Project-Kasa/index.html",
-    "main.4af8e019.css.map": "/CRA-Project-Kasa/static/css/main.4af8e019.css.map",
-    "main.e4af6444.js.map": "/CRA-Project-Kasa/static/js/main.e4af6444.js.map"
+    "main.css": "/static/css/main.4af8e019.css",
+    "main.js": "/static/js/main.8b03e964.js",
+    "static/media/image-a-propo.png": "/static/media/image-a-propo.31a72a1fd05dc889f909.png",
+    "static/media/image-home.png": "/static/media/image-home.7f6b1f9fd4057cf1b508.png",
+    "static/media/Kasa.png": "/static/media/Kasa.ae39c8901ca530b39482.png",
+    "static/media/croix.png": "/static/media/croix.d225ea0c3a0d52e1ce5f.png",
+    "static/media/Kasa-footer.png": "/static/media/Kasa-footer.3639a583a6249ad6adda.png",
+    "index.html": "/index.html",
+    "main.4af8e019.css.map": "/static/css/main.4af8e019.css.map",
+    "main.8b03e964.js.map": "/static/js/main.8b03e964.js.map"
   },
   "entrypoints": [
     "static/css/main.4af8e019.css",
-    "static/js/main.e4af6444.js"
+    "static/js/main.8b03e964.js"
   ]
 }
