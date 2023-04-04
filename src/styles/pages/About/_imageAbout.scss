@@ -27,3 +27,11 @@
         border-radius: 30px;
     }
 }
+
+@include responsive(){
+    .image-about{
+        &__image {
+            border-radius: 10px;
+        }
+    }
+}

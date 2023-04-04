@@ -19,7 +19,6 @@ function InfoRod({ title, texte }) {
                 >
                     <h2 className="about__title">{title}</h2>
                     <img
-                        style={{ rotate: "180deg" }}
                         onClick={() => setIsOpen(false)}
                         src={ImageButton}
                         alt="Image pour le bouton fermer/ouvrir des barres d'informations."
@@ -38,6 +37,7 @@ function InfoRod({ title, texte }) {
                 >
                     <h2 className="about__title">{title}</h2>
                     <img
+                        style={{ rotate: "180deg" }}
                         src={ImageButton}
                         alt="Image pour le bouton fermer/ouvrir des barres d'informations."
                         className="about__title-button"

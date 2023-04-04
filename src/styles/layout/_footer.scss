@@ -10,9 +10,9 @@
     align-items: center;
     margin-top: 50px;
     &__image {
-        width: 100px;
+        width: 130px;
         margin-top: 50px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     &__text {
         color: white;
@@ -25,7 +25,9 @@
     .footer {
         height: 200px;
         &__image {
+            width: 120px;
             margin-top: 25px;
+            margin-bottom: 10px;
         }
         &__text {
             font-size: 12px;
