@@ -9,7 +9,7 @@ function ImageAbout() {
         <img
             className="image-about__image"
             src={image}
-            alt="Image de montagnes de la page à propos."
+            alt="Paysage avec des montagnes."
         />
     );
 }

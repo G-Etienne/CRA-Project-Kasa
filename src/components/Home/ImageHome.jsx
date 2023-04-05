@@ -10,7 +10,7 @@ function ImageHome() {
             <img
                 className="imageHome__image"
                 src={Image}
-                alt="Image de plages Rocheuses"
+                alt="Plages Rocheuses"
             />
             <p className="imageHome__texte">Chez vous, partout et ailleurs</p>
         </div>

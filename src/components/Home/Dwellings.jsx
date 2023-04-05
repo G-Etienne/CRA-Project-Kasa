@@ -11,7 +11,7 @@ function Dwellings({ dwelling }) {
             <img
                 className="itemPresentation__image"
                 src={dwelling.cover}
-                alt="Première image du logement"
+                alt={"Première image du logement " + dwelling.title}
             />
             <h2 className="itemPresentation__title">{dwelling.title}</h2>
         </NavLink>

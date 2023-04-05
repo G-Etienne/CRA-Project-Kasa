@@ -38,19 +38,19 @@ function ImageDwelling({ dwelling }) {
                         onClick={() => setBigPicture(true)}
                         className="image-dwelling__picture"
                         src={dwelling.pictures[index]}
-                        alt="Première photo du logement"
+                        alt={"Photos du logement " + dwelling.title}
                     />
                     <img
                         onClick={() => setIndex((index = index - 1))}
                         className="image-dwelling__left-button"
                         src={imageButton}
-                        alt="Image pour le bouton gauche."
+                        alt="Bouton gauche "
                     />
                     <img
                         onClick={() => setIndex((index = index + 1))}
                         className="image-dwelling__right-button"
                         src={imageButton}
-                        alt="Image pour le bouton droit."
+                        alt="Bouton droit "
                     />
                 </div>
             );
@@ -61,7 +61,7 @@ function ImageDwelling({ dwelling }) {
                         onClick={() => setBigPicture(true)}
                         className="image-dwelling__picture"
                         src={dwelling.pictures[index]}
-                        alt="Première photo du logement"
+                        alt={"Photo du logement " + dwelling.title}
                     />
                 </div>
             );
@@ -74,25 +74,25 @@ function ImageDwelling({ dwelling }) {
                         className="big-image-dwelling__croix"
                         onClick={() => setBigPicture(false)}
                         src={imageCroix}
-                        alt="image de croix pour aider à fermer le mode plein écran"
+                        alt="Croix pour aider à fermer le mode plein écran"
                     />
                     <img
                         onClick={() => setBigPicture(false)}
                         className="big-image-dwelling__picture"
                         src={dwelling.pictures[index]}
-                        alt="Première photo du logement"
+                        alt={"Photo du logement " + dwelling.title}
                     />
                     <img
                         onClick={() => setIndex((index = index - 1))}
                         className="big-image-dwelling__left-button"
                         src={imageButton}
-                        alt="Image pour le bouton gauche."
+                        alt="Bouton gauche."
                     />
                     <img
                         onClick={() => setIndex((index = index + 1))}
                         className="big-image-dwelling__right-button"
                         src={imageButton}
-                        alt="Image pour le bouton droit."
+                        alt="Bouton droit."
                     />
                 </div>
             );
@@ -103,13 +103,13 @@ function ImageDwelling({ dwelling }) {
                         className="big-image-dwelling__croix"
                         onClick={() => setBigPicture(false)}
                         src={imageCroix}
-                        alt="image de croix pour aider à fermer le mode plein écran"
+                        alt="Croix pour aider à fermer le mode plein écran"
                     />
                     <img
                         onClick={() => setBigPicture(false)}
                         className="big-image-dwelling__picture"
                         src={dwelling.pictures[index]}
-                        alt="Première photo du logement"
+                        alt={"Photo du logement "  + dwelling.title}
                     />
                 </div>
             );
