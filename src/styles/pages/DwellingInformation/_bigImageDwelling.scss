@@ -8,11 +8,13 @@
     justify-content: center;
     align-items: center;
     background-color: grey;
+    z-index: 4;
     &__picture {
         position: relative;
         max-height: 65%;
         max-width: 65%;
         object-fit: cover;
+        z-index: 5;
     }
     &__left-button {
         position: absolute;

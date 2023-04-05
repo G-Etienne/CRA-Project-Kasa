@@ -19,9 +19,8 @@ function InfoRodDwelling({ title, texte }) {
                 <div className="about__title-container info">
                     <h2 className="about__title">{title}</h2>
                     <img
-                        
                         src={ImageButton}
-                        alt="Image pour le bouton fermer/ouvrir des barres d'informations."
+                        alt="Bouton fermer/ouvrir des barres d'informations."
                         className="about__title-button"
                     />
                 </div>
@@ -37,9 +36,9 @@ function InfoRodDwelling({ title, texte }) {
                 <div className="about__title-container info">
                     <h2 className="about__title">{title}</h2>
                     <img
-                        style={{ rotate: "180deg" }}
+                        style={{ rotate: "180deg"}}
                         src={ImageButton}
-                        alt="Image pour le bouton fermer/ouvrir des barres d'informations."
+                        alt="Bouton fermer/ouvrir des barres d'informations."
                         className="about__title-button"
                     />
                 </div>
