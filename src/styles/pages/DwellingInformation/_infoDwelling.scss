@@ -80,21 +80,6 @@
     margin-bottom: 70px;
 }
 
-.about__title-container.info {
-    width: 100%;
-    height: 55px;
-}
-
-.about__title-container.info .about__title{
-    font-weight: 400;
-}
-
-.about.info-container {
-    min-width: 47%;
-    max-width: 47%;
-    margin-top: 10px;
-}
-
 //Style responsive pour la partie sous l'image de la page d'informations sur un logement
 @include responsive() {
     .info-dwelling__container {
@@ -155,13 +140,4 @@
         flex-direction: column;
     }
 
-    .about.info-container {
-        margin-top: 0px;
-        margin-bottom: 20px;
-        min-width: 100%;
-    }
-    .about__title-container.info {
-        height: 30px;
-        border-radius: 5px;
-    }
 }

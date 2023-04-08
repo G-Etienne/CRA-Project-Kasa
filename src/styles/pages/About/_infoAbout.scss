@@ -8,9 +8,10 @@
 }
 
 .about {
-    margin-top: 40px;
+    &-container-rod {margin-top: 40px;
     width: 70%;
     min-width: 70%;
+    }
     &__title-container {
         background-color: $color-primary;
         display: flex;

@@ -3,7 +3,7 @@
 //Importation des composants pour construire la page d'informations sur un logement.
 import ImageDwelling from "../components/DwellingInformation/ImageDwelling";
 import InfoDwelling from "../components/DwellingInformation/InfoDwelling";
-import InfoRodDwelling from "../components/DwellingInformation/InfoRodDwelling";
+import InfoRodDwelling from "../components/InfoRod";
 
 //Importation de la page erreur en cas d'id introuvable.
 import Error from "../pages/Error";
@@ -30,9 +30,11 @@ function DwellingInfo() {
                     <InfoRodDwelling
                         title="Description"
                         texte={data.description}
+                        page="dwelling"
                     />
                     <InfoRodDwelling
                         title="Équipements"
+                        page="dwelling"
                         texte={data.equipments.map((equipement) => (
                             <span key={data.id + equipement}>
                                 {equipement}
