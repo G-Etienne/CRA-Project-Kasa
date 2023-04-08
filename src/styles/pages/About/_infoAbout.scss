@@ -44,8 +44,10 @@
 //Style responsive pour les éléments de la page A propos
 @include responsive() {
     .about {
-        width: 90%;
-        margin-top: 20px;
+        &-container-rod {
+            width: 90%;
+            margin-top: 20px;
+        }
         &__title-container {
             height: 35px;
             border-radius: 5px;
