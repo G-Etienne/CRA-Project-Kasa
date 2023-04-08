@@ -1,5 +1,9 @@
 //PAGE INFORMATIONS SUR UN LOGEMENT
 
+//Importation du style 
+import "../../styles/pages/DwellingInformation/_imageDwelling.scss"
+import "../../styles/pages/DwellingInformation/_bigImageDwelling.scss"
+
 //Importation de l'image pour les boutons de défilement des images.
 //Importation de l'image croix pour fermer le mode plein écran
 //Importation de useEffect et useState

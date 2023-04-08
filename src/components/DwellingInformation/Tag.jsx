@@ -1,5 +1,7 @@
 //PAGE INFORMATIONS SUR UN LOGEMENT
 
+//Importation du style
+import "../../styles/components/_tag.scss"
 //Composant fonction qui retourne un élément Tag
 function Tag({ texte }) {
     return (

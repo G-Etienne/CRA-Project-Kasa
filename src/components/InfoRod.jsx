@@ -1,5 +1,9 @@
 //PAGE A PROPOS
 
+//Importation du style
+import "../styles/pages/About/_infoAbout.scss"
+import "../styles/pages/DwellingInformation/_infoRodDwelling.scss"
+
 //Importation de useState
 //Importation de l'image du bouton pour ouvrir et fermer les barres
 import { useState } from "react";

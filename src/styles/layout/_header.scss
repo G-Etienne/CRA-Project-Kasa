@@ -1,3 +1,7 @@
+//Importation mixin et variables 
+@import "../utils/mixin-media";
+@import "../utils/variables";
+
 //Style pour l'en-tête
 .header {
     display: flex;

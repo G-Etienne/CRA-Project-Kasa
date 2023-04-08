@@ -1,3 +1,6 @@
+//Importation du style 
+import "../styles/layout/_header.scss"
+
 //Importation de NavLink pour la navigation entre la page d'accueil et A propos
 //Importation de l'image du logo Kasa pour l'en-tête de la page.
 import { NavLink } from "react-router-dom";

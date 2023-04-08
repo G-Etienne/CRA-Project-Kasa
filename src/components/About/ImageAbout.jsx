@@ -1,5 +1,9 @@
 //PAGE A PROPOS
 
+
+//Importation du style 
+import "../../styles/pages/About/_imageAbout.scss"
+
 //Importation de l'image de la page A Propos
 import image from "../../assets/images/image-a-propo.png";
 

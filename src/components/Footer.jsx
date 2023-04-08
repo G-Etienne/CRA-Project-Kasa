@@ -1,3 +1,6 @@
+//Importation du style 
+import "../styles/layout/_footer.scss"
+
 //Importation du logo Kasa pour le pied de page
 import logo from "../assets/logo/Kasa-footer.png";
 

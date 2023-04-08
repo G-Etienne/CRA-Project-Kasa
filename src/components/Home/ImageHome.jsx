@@ -1,4 +1,7 @@
 //PAGE ACCUEIL
+//Importation des styles
+import "../../styles/pages/home/_imagehome.scss"
+import "../../styles/pages/home/_dwelling.scss"
 
 //Importation de l'image en haut de la page d'accueil
 import Image from "../../assets/images/image-home.png";

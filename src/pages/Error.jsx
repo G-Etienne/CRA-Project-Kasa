@@ -1,6 +1,12 @@
 //PAGE ERREUR 404
+
+//Importation du style 
+
+import "../styles/pages/Error/_error.scss"
+
 //Importation de NavLink pour le retour à la page accueil
 import { NavLink } from "react-router-dom";
+
 
 //Composant fonction qui retourne les éléments pour construire la page erreur 404
 function Error() {

@@ -1,3 +1,7 @@
+//Importation mixin et variables 
+@import "../../utils/mixin-media";
+@import "../../utils/variables";
+
 //Style pour la partie images de la page informations sur un logement.
 .image-dwelling__container {
     position: relative;

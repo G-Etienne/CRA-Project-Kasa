@@ -1,5 +1,7 @@
 //PAGE INFORMATIONS SUR UN LOGEMENT
 
+//Importation du style 
+import "../../styles/pages/DwellingInformation/_infoDwelling.scss"
 //Importation du composant contenant le titre du logement, la localisation et les tags
 //Importation du composant pour le nom et la photo de l'hôte
 //Importation du composant pour les étoiles
